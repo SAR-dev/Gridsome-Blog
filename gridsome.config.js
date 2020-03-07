@@ -11,6 +11,13 @@ module.exports = {
   siteName: 'Comics Ghor',
   siteDescription: 'Comics Ghor-A canvas to paint your mind out. ',
   siteUrl: 'https://comicsghor.com/',
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+  },
   plugins: [
     {
       use: "gridsome-plugin-manifest",
@@ -33,6 +40,16 @@ module.exports = {
         plugins: [
           [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
       ],
+      }
+    },
+    {
+      use: '@gridsome/source-contentful',
+      options: {
+        space: 'sk3qslyuawx0', // required
+        accessToken: 'aaDgvXA3_72Lo1q93g2rFgJT60UPRF65IS9QviEbCoo', // required
+        host: 'cdn.contentful.com',
+        environment: 'master',
+        typeName: 'Contentful'
       }
     },
     {

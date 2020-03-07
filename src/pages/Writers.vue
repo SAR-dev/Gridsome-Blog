@@ -31,7 +31,13 @@ query Writers {
 <script>
 export default {
   metaInfo: {
-    title: "Writers"
+    title: "Writers",
+    meta: [
+      {
+        name: 'Comicsghor-Blog',
+        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+      }
+    ]
   }
 };
 </script>

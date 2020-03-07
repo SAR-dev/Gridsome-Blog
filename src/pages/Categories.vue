@@ -31,7 +31,13 @@ query Cats {
 <script>
 export default {
   metaInfo: {
-    title: "Categoriess"
+    title: "Categories",
+    meta: [
+      {
+        name: 'Comicsghor-Blog',
+        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+      }
+    ]
   }
 };
 </script>

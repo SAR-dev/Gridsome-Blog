@@ -31,7 +31,13 @@ query Tags {
 <script>
 export default {
   metaInfo: {
-    title: "Tags"
+    title: "Tags",
+    meta: [
+      {
+        name: 'Comicsghor-Blog',
+        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+      }
+    ]
   }
 };
 </script>
