@@ -1,6 +1,6 @@
 **
 
-## [SEE IT LIVE](https://mystifying-poincare-a14ed5.netlify.com)
+## [SEE IT LIVE](https://comicsghor.netlify.com)
 
 **
-[https://mystifying-poincare-a14ed5.netlify.com](https://mystifying-poincare-a14ed5.netlify.com)
+[https://comicsghor.netlify.com](https://comicsghor.netlify.com)
