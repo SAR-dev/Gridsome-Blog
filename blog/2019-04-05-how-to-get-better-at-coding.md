@@ -4,7 +4,10 @@ path: /how-to-get-better-at-coding
 date: 2019-04-05
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
 tags: ['coding', 'frontend', 'backend']
-cover: https://i.imgur.com/2F3Al82l.jpg
+writers: ['Sayed Rafi']
+seriess: ['Kimetsu no yaiba']
+cats: ['Anime']
+cover: https://i.imgur.com/FIncgTr.jpg
 ---
 
 ![background](./images/blog_bg_2.jpg)

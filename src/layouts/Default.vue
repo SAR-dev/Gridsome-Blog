@@ -4,9 +4,9 @@
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/">
-            <g-image src="../../static/Comicsghor.png" class="w-40" alt="logo" />
+            <g-image src="../../static/logo.png" class="w-10" alt="logo" />
           </g-link>
-          <g-link v-else to="/"><g-image src="../../static/Comicsghor.png" class="w-40" alt="logo" /></g-link>
+          <g-link v-else to="/"><g-image src="../../static/logo.png" class="w-10" alt="logo" /></g-link>
         </div>
         <div class="block lg:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600">
@@ -36,7 +36,7 @@
             <g-link to="/tags" class="text-copy-primary hover:text-gray-600">Tags</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/categories" class="text-copy-primary hover:text-gray-600">Categories</g-link>
+            <g-link to="/cats" class="text-copy-primary hover:text-gray-600">Categories</g-link>
           </li>
           <li>
             <g-link to="/writers" class="text-copy-primary hover:text-gray-600">Authors</g-link>

@@ -98,7 +98,7 @@ query writer ($id: ID!, $page: Int) {
               title
               path
             }
-            writers {
+            tags {
               title
               path
             }
@@ -123,12 +123,13 @@ export default {
         "Writer: " +
         this.$page.writer.title.charAt(0).toUpperCase() +
         this.$page.writer.title.slice(1),
-        meta: [
-      {
-        name: 'Comicsghor-Blog',
-        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
-      }
-    ]
+      meta: [
+        {
+          name: "Comicsghor-Blog",
+          content:
+            "Comicsghor Blog. Here you will get comic and anime related blog posts"
+        }
+      ]
     };
   },
   components: {

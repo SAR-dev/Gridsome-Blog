@@ -2,10 +2,12 @@
 title: Introduction to Gridsome
 path: /introduction-to-gridsome
 date: 2019-04-08
-summary: Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files.
+summary: Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. Gridsome makes it easy and fun for developers to create fast, beautiful websites without needing to become a performance expert.
 tags: ['frontend', 'coding', 'vue']
-writers: ['rafi']
-cover: https://i.imgur.com/2F3Al82l.jpg
+writers: ['Sayed Rafi']
+seriess: ['Kimetsu no yaiba']
+cats: ['Anime']
+cover: https://i.imgur.com/FIncgTr.jpg
 ---
 
 ![background](./images/blog_bg_1.jpg)

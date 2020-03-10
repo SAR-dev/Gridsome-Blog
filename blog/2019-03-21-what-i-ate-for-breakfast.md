@@ -4,7 +4,10 @@ path: /what-i-ate-for-breakfast
 date: 2019-03-21
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
 tags: ['lifestyle']
-cover: https://i.imgur.com/2F3Al82l.jpg
+writers: ['Sayed Rafi']
+seriess: ['Kimetsu no yaiba']
+cats: ['Anime']
+cover: https://i.imgur.com/FIncgTr.jpg
 ---
 
 ![background](./images/blog_bg_1.jpg)

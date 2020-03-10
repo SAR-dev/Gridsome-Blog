@@ -17,20 +17,7 @@
       </div>
 
       <div class="mb-10 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:px-12">
-        <carousel :autoplay="true" :perPage="1" :autoplayTimeout="5000">
-          <slide>
-            <g-image src="../../static/carousel (1).svg" class="object-cover" />
-          </slide>
-          <slide>
-            <g-image src="../../static/carousel (2).svg" class="object-cover" />
-          </slide>
-          <slide>
-            <g-image src="../../static/carousel (3).svg" class="object-cover" />
-          </slide>
-          <slide>
-            <g-image src="../../static/carousel (4).svg" class="object-cover" />
-          </slide>
-        </carousel>
+        <g-image src="../../static/carousel (2).svg" class="object-cover" />
       </div>
     </div>
 
