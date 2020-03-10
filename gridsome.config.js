@@ -12,9 +12,9 @@ const postcssPlugins = [ tailwind() ];
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss());
 
 module.exports = {
-	siteName: 'Gridsome Portfolio Starter',
-	siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
-	siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+	siteName: 'Comics Ghor',
+	siteDescription: 'Welcome to Comics Ghor, a Bangladeshi website. The purpose of Comics Ghor is to create a free platform for all the Bangladeshi people, of all age, who desire to draw comics or write novels, stories or more',
+	siteUrl: 'https://mystifying-poincare-a14ed5.netlify.com',
 	chainWebpack: (config) => {
 		const svgRule = config.module.rule('svg');
 		svgRule.uses.clear();
@@ -67,28 +67,28 @@ module.exports = {
 				}
 			}
 		},
-		// {
-		// 	use: 'gridsome-plugin-rss',
-		// 	options: {
-		// 		contentTypeName: 'Post',
-		// 		feedOptions: {
-		// 			title: 'Gridsome Portfolio Starter Blog',
-		// 			feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
-		// 			site_url: 'https://gridsome-portfolio-starter.netlify.com/'
-		// 		},
-		// 		feedItemOptions: (node) => ({
-		// 			title: node.title,
-		// 			description: node.summary,
-		// 			url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
-		// 			author: 'Andre Madarang',
-		// 			date: node.date
-		// 		}),
-		// 		output: {
-		// 			dir: './static',
-		// 			name: 'rss.xml'
-		// 		}
-		// 	}
-		// },
+		{
+			use: 'gridsome-plugin-rss',
+			options: {
+				contentTypeName: 'Post',
+				feedOptions: {
+					title: 'Comics Ghor',
+					feed_url: 'https://mystifying-poincare-a14ed5.netlify.com/rss.xml',
+					site_url: 'https://mystifying-poincare-a14ed5.netlify.com/'
+				},
+				feedItemOptions: (node) => ({
+					title: node.title,
+					description: node.summary,
+					url: 'https://mystifying-poincare-a14ed5.netlify.com' + node.path,
+					author: 'SAR-DEV',
+					date: node.date
+				}),
+				output: {
+					dir: './static',
+					name: 'rss.xml'
+				}
+			}
+		},
 		{
 			use: '@gridsome/plugin-sitemap',
 			options: {

@@ -25,6 +25,8 @@
 query Post ($path: String!) {
   post: post (path: $path) {
     title
+    cover
+    summary
     date (format: "MMMM D, Y")
     content
     tags {
@@ -39,7 +41,13 @@ query Post ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
+      meta: [
+        {
+          content: this.$page.post.cover,
+          name: this.$page.post.summary
+        }
+      ]
     }
   }
 }
