@@ -76,7 +76,7 @@
       </div>
       <div class="my-5 mx-auto text-center">
         <social-sharing
-          :url="`https://mystifying-poincare-a14ed5.netlify.com${$page.post.path}`"
+          :url="`https://comicsghor.netlify.com${$page.post.path}`"
           :title="$page.post.title"
           :description="$page.post.summary"
           inline-template
@@ -84,32 +84,32 @@
           <div>
             <network network="facebook">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >Facebook</button>
             </network>
             <network network="linkedin">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >LinkedIn</button>
             </network>
             <network network="pinterest">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >Pinterset</button>
             </network>
             <network network="reddit">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >Reddit</button>
             </network>
             <network network="twitter">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >Twitter</button>
             </network>
             <network network="whatsapp">
               <button
-                class="tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
+                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
               >WhatsApp</button>
             </network>
           </div>

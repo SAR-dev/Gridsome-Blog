@@ -73,13 +73,13 @@ module.exports = {
 				contentTypeName: 'Post',
 				feedOptions: {
 					title: 'Comics Ghor',
-					feed_url: 'https://mystifying-poincare-a14ed5.netlify.com/rss.xml',
-					site_url: 'https://mystifying-poincare-a14ed5.netlify.com/'
+					feed_url: 'https://comicsghor.netlify.com/rss.xml',
+					site_url: 'https://comicsghor.netlify.com/'
 				},
 				feedItemOptions: (node) => ({
 					title: node.title,
 					description: node.summary,
-					url: 'https://mystifying-poincare-a14ed5.netlify.com' + node.path,
+					url: 'https://comicsghor.netlify.com' + node.path,
 					author: 'SAR-DEV',
 					date: node.date
 				}),

@@ -26,7 +26,7 @@
         class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 relative"
       >
         <h2
-          class="font-black mb-6 text-2xl leading-none tracking-wide"
+          class="font-black mb-6 text-3xl leading-none tracking-wide"
           id="projects"
           style="color: #D53F8C; font-weight: 800"
         >SOCIAL NETWORKING WEBSITE COMING SOON</h2>
@@ -68,7 +68,7 @@
       <!-- end projects -->
     </div>
 
-    <div class="container-inner text-center mx-auto py-10 border-b border-gray-500">
+    <div class="container-inner text-center mx-auto mt-20 pb-20 border-b border-gray-500">
       <h3 class="font-bold text-3xl uppercase leading-none tracking-wide" style="color: #B83280">
         Click below
         <div class="float-left text-5xl">
@@ -86,7 +86,7 @@
       </a>
     </div>
 
-    <div id="container-inner" class="w-4/5 mx-auto py-10 border-b border-gray-500">
+    <div id="container-inner" class="w-4/5 mx-auto py-20 border-b border-gray-500">
       <h2
         class="uppercase text-5xl text-blue-900 font-bold leading-none tracking-widest mb-6 text-center"
       >Meet the founders</h2>
@@ -125,7 +125,11 @@
       <h2
         class="uppercase text-5xl text-blue-900 font-bold leading-none tracking-widest mb-6 text-center py-8"
       >Contact Us</h2>
-      <form class="w-full max-w-lg mx-auto px-5" action="https://formspree.io/meqkdyzo" method="POST">
+      <form
+        class="w-full max-w-lg mx-auto px-5"
+        action="https://formspree.io/meqkdyzo"
+        method="POST"
+      >
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
@@ -216,8 +220,9 @@ export default {
     title: "Home",
     meta: [
       {
-        name: 'Comicsghor-Blog',
-        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+        name: "Comicsghor-Blog",
+        content:
+          "Comicsghor Blog. Here you will get comic and anime related blog posts"
       }
     ]
   },
