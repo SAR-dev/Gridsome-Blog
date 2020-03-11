@@ -7,7 +7,7 @@ tags: ['frontend', 'coding', 'vue']
 writers: ['Sayed Rafi']
 seriess: ['Kimetsu no yaiba']
 cats: ['Anime']
-cover: https://i.imgur.com/FIncgTr.jpg
+cover: https://i.imgur.com/HKHi8sWl.jpg
 ---
 
 ![background](./images/blog_bg_1.jpg)

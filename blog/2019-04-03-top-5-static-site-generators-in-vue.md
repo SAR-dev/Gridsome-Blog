@@ -5,9 +5,9 @@ date: 2019-04-03
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
 tags: ['frontend', 'coding', 'vue']
 writers: ['Sayed Rafi']
-seriess: ['Kimetsu no yaiba']
+seriess: ['Akagami']
 cats: ['Anime']
-cover: https://i.imgur.com/FIncgTr.jpg
+cover: https://i.imgur.com/HKHi8sWl.jpg
 ---
 
 ![background](./images/blog_bg_3.jpg)
