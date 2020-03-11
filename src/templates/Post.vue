@@ -81,36 +81,21 @@
           :description="$page.post.summary"
           inline-template
         >
-          <div>
+          <div class="mx-auto text-center inline-flex">
             <network network="facebook">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >Facebook</button>
+              <g-image src="../../static/icons/facebook_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
             </network>
             <network network="linkedin">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >LinkedIn</button>
-            </network>
-            <network network="pinterest">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >Pinterset</button>
+              <g-image src="../../static/icons/linkedin_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
             </network>
             <network network="reddit">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >Reddit</button>
+              <g-image src="../../static/icons/reddit_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
             </network>
             <network network="twitter">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >Twitter</button>
+              <g-image src="../../static/icons/twitter_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
             </network>
             <network network="whatsapp">
-              <button
-                class="my-3 tracking-wide text-white text-bold text-sm px-4 py-2 mx-2 border rounded-full share-button"
-              >WhatsApp</button>
+              <g-image src="../../static/icons/what_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
             </network>
           </div>
         </social-sharing>
