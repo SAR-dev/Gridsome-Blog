@@ -16,7 +16,7 @@
 
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
-          <span>&middot;</span>
+          <span class="px-1">|</span>
           <span>{{ post.node.timeToRead }} min read</span>
         </div>
 
@@ -30,7 +30,7 @@
             />
           </div>
           <div class="w-full lg:w-1/2 text-lg pr-4 pb-4">
-            <div>{{ post.node.summary }}</div>
+            <div>{{ post.node.summary }}.....</div>
             <div class="my-2">
               <g-link
                 :to="writer.path"

@@ -24,7 +24,7 @@
             />
           </div>
           <div class="w-full lg:w-1/2 text-lg pr-4 pb-4">
-            <div>{{ post.node.summary }}</div>
+            <div>{{ post.node.summary }}.....</div>
             <div class="my-2">
               <g-link
                 :to="writer.path"

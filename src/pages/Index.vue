@@ -69,7 +69,7 @@
     </div>
 
     <div class="container-inner text-center mx-auto mt-20 pb-20 border-b border-gray-500">
-      <h3 class="font-bold text-3xl uppercase leading-none tracking-wide" style="color: #B83280">
+      <h3 class="font-bold text-4xl uppercase leading-none tracking-wide mb-4" style="color: #B83280">
         Click below
         <div class="float-left text-5xl">
           <Below2 />
