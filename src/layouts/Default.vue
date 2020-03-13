@@ -102,10 +102,10 @@ query {
 <script>
 import SearchInput from '../components/SearchInput'
 import ThemeSwitcher from '../components/ThemeSwitcher'
-import Facebook from '../../static/facebook.svg'
-import Gmail from '../../static/mail.svg'
-import Twitter from '../../static/twitter.svg'
-import Insta from '../../static/instagram.svg'
+import Facebook from '../../static/icons/facebook.svg'
+import Gmail from '../../static/icons/mail.svg'
+import Twitter from '../../static/icons/twitter.svg'
+import Insta from '../../static/icons/instagram.svg'
 
 export default {
   components: {

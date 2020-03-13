@@ -25,32 +25,32 @@
           </div>
           <div class="w-full lg:w-1/2 text-lg pr-4 pb-4">
             <div>{{ post.node.summary }}.....</div>
-            <div class="my-2">
-              <g-link
-                :to="writer.path"
-                v-for="writer in post.node.writers"
-                :key="writer.id"
-                class="capitalize mb-2 text-gray-700 text-base"
-              >
+            <g-link
+              :to="writer.path"
+              v-for="writer in post.node.writers"
+              :key="writer.id"
+              class="capitalize mb-2 text-gray-700 text-base"
+            >
+              <div class="w-full my-2">
                 <div class="float-left mr-2">
                   <Pen />
                 </div>
                 {{ writer.title }}
-              </g-link>
-            </div>
-            <div class="my-2">
-              <g-link
-                :to="series.path"
-                v-for="series in post.node.seriess"
-                :key="series.id"
-                class="capitalize mb-2 text-gray-700 text-base"
-              >
+              </div>
+            </g-link>
+            <g-link
+              :to="series.path"
+              v-for="series in post.node.seriess"
+              :key="series.id"
+              class="capitalize mb-2 text-gray-700 text-base"
+            >
+              <div class="w-full my-2">
                 <div class="float-left mr-2">
                   <Book />
                 </div>
                 {{ series.title }}
-              </g-link>
-            </div>
+              </div>
+            </g-link>
             <g-link :to="post.node.path">
               <div class="float-left mr-2">
                 <Arrow />
@@ -113,8 +113,9 @@ export default {
     title: "Blog",
     meta: [
       {
-        name: 'Comicsghor-Blog',
-        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+        name: "Comicsghor-Blog",
+        content:
+          "Comicsghor Blog. Here you will get comic and anime related blog posts"
       }
     ]
   },

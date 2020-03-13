@@ -74,30 +74,18 @@
           </svg>Back to Blog
         </g-link>
       </div>
-      <div class="my-5 mx-auto text-center">
+      <div class="my-5">
         <social-sharing
           :url="`https://comicsghor.netlify.com${$page.post.path}`"
           :title="$page.post.title"
           :description="$page.post.summary"
           inline-template
         >
-          <div class="mx-auto text-center inline-flex">
             <network network="facebook">
-              <g-image src="../../static/icons/facebook_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
+              <button class="rounded-full w-full py-3 tracking-wider hover:opacity-75 text-white" style="background-color: #3b5998">
+                Facebook Share
+              </button>
             </network>
-            <network network="linkedin">
-              <g-image src="../../static/icons/linkedin_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
-            </network>
-            <network network="reddit">
-              <g-image src="../../static/icons/reddit_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
-            </network>
-            <network network="twitter">
-              <g-image src="../../static/icons/twitter_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
-            </network>
-            <network network="whatsapp">
-              <g-image src="../../static/icons/what_sq.svg" style="height: 35px; max-width: 35px" class="cursor-pointer hover:opacity-75 m-2"/>
-            </network>
-          </div>
         </social-sharing>
       </div>
       <div class="post-comments">
