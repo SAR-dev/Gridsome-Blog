@@ -228,7 +228,7 @@ export default {
         },
         {
           name: "twitter:card",
-          content: "../../static/logo.png"
+          content: "https://i.imgur.com/Jtqiplv.jpg"
         },
         {
           name: "twitter:creator",
