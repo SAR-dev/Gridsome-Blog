@@ -11,7 +11,7 @@
         </h2>
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
-          <span>&middot;</span>
+          <span class="px-1">|</span>
           <span>{{ post.node.timeToRead }} min read</span>
         </div>
         <div class="flex flex-wrap lg:flex-row-reverse">

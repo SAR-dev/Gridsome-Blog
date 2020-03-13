@@ -30,19 +30,19 @@
           v-for="writer in $page.post.writers"
           :key="writer.id"
           class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
-        >Author: {{ writer.title }}</g-link>
+        ><div class="float-left mr-2"><Pen /></div>{{ writer.title }}</g-link>
         <g-link
           :to="series.path"
           v-for="series in $page.post.seriess"
           :key="series.id"
           class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
-        >Series: {{ series.title }}</g-link>
+        ><div class="float-left mr-2"><Book /></div>{{ series.title }}</g-link>
         <g-link
           :to="cat.path"
           v-for="cat in $page.post.cats"
           :key="cat.id"
           class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
-        >Category: {{ cat.title }}</g-link>
+        ><div class="float-left mr-2"><Category /></div>{{ cat.title }}</g-link>
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
       <div class="flex mb-8 text-sm">
@@ -129,7 +129,16 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
+import Book from "../../static/book-open.svg";
+import Pen from "../../static/pen-tool.svg";
+import Category from "../../static/icons/align-left.svg";
+
 export default {
+  components: {
+    Book,
+    Pen,
+    Category
+  },
   metaInfo() {
     return {
       title: this.$page.post.title,
