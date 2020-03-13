@@ -240,7 +240,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "../../static/logo.png"
+          content: "https://i.imgur.com/Jtqiplv.jpg"
         }
       ]
   },
