@@ -218,12 +218,31 @@ export default {
   metaInfo: {
     title: "Home",
     meta: [
-      {
-        name: "Comicsghor-Blog",
-        content:
-          "Comicsghor Blog. Here you will get comic and anime related blog posts"
-      }
-    ]
+        {
+          name: "description",
+          content: "Welcome to Comics Ghor, a Bangladeshi website. The purpose of Comics Ghor is to create a free platform for all the Bangladeshi people, of all age, who desire to draw comics or write novels, stories or more."
+        },
+        {
+          property: "og:title",
+          content: "Comicsghor-Blog"
+        },
+        {
+          name: "twitter:card",
+          content: "../../static/logo.png"
+        },
+        {
+          name: "twitter:creator",
+          content: "@comicsghor"
+        },
+        {
+          property: "og:description",
+          cotent: "Welcome to Comics Ghor, a Bangladeshi website. The purpose of Comics Ghor is to create a free platform for all the Bangladeshi people, of all age, who desire to draw comics or write novels, stories or more."
+        },
+        {
+          property: "og:image",
+          content: "../../static/logo.png"
+        }
+      ]
   },
   components: {
     Smile,
