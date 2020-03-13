@@ -7,7 +7,7 @@
           v-for="tag in $page.tags.edges"
           :key="tag.id"
           :to="tag.node.path"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize my-4"
+          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-pink-600 hover:text-white capitalize my-4 text-pink-600"
         >{{ tag.node.title }}</g-link>
       </div>
     </div>

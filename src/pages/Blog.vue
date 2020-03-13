@@ -7,7 +7,7 @@
         class="post border-gray-400 border-b mb-12"
       >
         <h2 class="text-3xl font-bold">
-          <g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link>
+          <g-link :to="post.node.path" class="text-copy-primary hover:text-pink-600">{{ post.node.title }}</g-link>
         </h2>
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
@@ -29,7 +29,7 @@
               :to="writer.path"
               v-for="writer in post.node.writers"
               :key="writer.id"
-              class="capitalize mb-2 text-gray-700 text-base"
+              class="capitalize mb-2 text-gray-700 text-base hover:text-pink-600"
             >
               <div class="w-full my-2">
                 <div class="float-left mr-2">
@@ -42,7 +42,7 @@
               :to="series.path"
               v-for="series in post.node.seriess"
               :key="series.id"
-              class="capitalize mb-2 text-gray-700 text-base"
+              class="capitalize mb-2 text-gray-700 text-base hover:text-pink-600"
             >
               <div class="w-full my-2">
                 <div class="float-left mr-2">
@@ -51,7 +51,7 @@
                 {{ series.title }}
               </div>
             </g-link>
-            <g-link :to="post.node.path">
+            <g-link :to="post.node.path" class="text-pink-600 hover:text-pink-700">
               <div class="float-left mr-2">
                 <Arrow />
               </div>Read More

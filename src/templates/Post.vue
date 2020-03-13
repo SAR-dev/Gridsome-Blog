@@ -2,7 +2,7 @@
   <Layout>
     <div class="container-inner mx-auto mb-16">
       <div class="mb-4">
-        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4">
+        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700">
           <svg
             class="h-5 mr-2 fill-current float-left"
             version="1.1"
@@ -29,19 +29,19 @@
           :to="writer.path"
           v-for="writer in $page.post.writers"
           :key="writer.id"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
+          class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
         ><div class="float-left mr-2"><Pen /></div>{{ writer.title }}</g-link>
         <g-link
           :to="series.path"
           v-for="series in $page.post.seriess"
           :key="series.id"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
+          class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
         ><div class="float-left mr-2"><Book /></div>{{ series.title }}</g-link>
         <g-link
           :to="cat.path"
           v-for="cat in $page.post.cats"
           :key="cat.id"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-blue-300 capitalize mb-4"
+          class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
         ><div class="float-left mr-2"><Category /></div>{{ cat.title }}</g-link>
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
@@ -50,11 +50,11 @@
           :to="tag.path"
           v-for="tag in $page.post.tags"
           :key="tag.id"
-          class="bg-gray-300 rounded-full px-4 py-2 mr-4 hover:bg-green-300"
+          class="bg-gray-300 rounded-full px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white"
         >{{ tag.title }}</g-link>
       </div>
       <div class="mb-8">
-        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4">
+        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700">
           <svg
             class="h-5 mr-2 fill-current float-left"
             version="1.1"
@@ -82,7 +82,7 @@
           inline-template
         >
             <network network="facebook">
-              <button class="rounded-full w-full py-3 tracking-wider hover:opacity-75 text-white" style="background-color: #3b5998">
+              <button class="rounded-full w-full py-3 tracking-wider bg-pink-600 text-white hover:bg-pink-700">
                 Facebook Share
               </button>
             </network>

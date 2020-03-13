@@ -6,7 +6,7 @@
       <input
         type="text"
         placeholder="Search (Press  &quot;/&quot; to focus)"
-        class="bg-background-form border border-gray-500 rounded-full px-4 pl-10 py-2 outline-none focus:border-green-500 w-80"
+        class="bg-background-form border border-gray-500 rounded-full px-4 pl-10 py-2 outline-none focus:border-pink-600 w-80"
         v-model="query"
         @input="softReset"
         @keyup="performSearch"
@@ -38,7 +38,7 @@
             :key="index"
             :href="post.item.path"
             @click="reset"
-            class="bg-background-form border-b border-gray-400 text-xl cursor-pointer p-4 search-hover"
+            class="bg-background-form border-b border-gray-400 text-xl cursor-pointer p-4 search-hover text-pink-600 hover:text-pink-700"
             :class="{ 'search-highlighted' : index === highlightedIndex }"
           >
             {{ post.item.title }}

@@ -1,15 +1,15 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-8 border-green-700">
+    <header class="border-t-8 border-pink-600">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/" style="border: none">
             <!-- <g-image src="../../static/logo.png" class="w-10" alt="logo" /> -->
-            <span class="text-2xl">Comics Ghor</span>
+            <span class="text-2xl text-pink-600">Comics Ghor</span>
           </g-link>
           <g-link v-else to="/" style="border: none">
             <!-- <g-image src="../../static/logo.png" class="w-10" alt="logo" /> -->
-            <span class="text-2xl">Comics Ghor</span>
+            <span class="text-2xl text-pink-600">Comics Ghor</span>
           </g-link>
         </div>
         <div class="block lg:hidden">
@@ -52,7 +52,7 @@
     <div class="flex-grow">
       <slot/>
     </div>
-    <footer class="bg-green-700 text-white">
+    <footer class="bg-pink-600 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-4">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>

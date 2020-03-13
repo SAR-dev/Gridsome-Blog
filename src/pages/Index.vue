@@ -26,14 +26,13 @@
         class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 relative"
       >
         <h2
-          class="font-black mb-6 text-3xl leading-none tracking-wide"
+          class="font-black mb-6 text-5xl text-center text-pink-600 leading-none tracking-wide"
           id="projects"
-          style="color: #D53F8C; font-weight: 800"
         >SOCIAL NETWORKING WEBSITE COMING SOON</h2>
-        <div class="mb-20">
-          <g-image src="../../static/party-popper.png" width="35" class="float-left" />
-          <g-image src="../../static/party-popper.png" width="35" class="float-left" />
-          <g-image src="../../static/party-popper.png" width="35" class="float-left" />
+        <div class="mb-10 text-center">
+          <g-image src="../../static/party-popper.png" width="50" class="inline" />
+          <g-image src="../../static/party-popper.png" width="50" class="inline" />
+          <g-image src="../../static/party-popper.png" width="50" class="inline" />
         </div>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px">
@@ -42,25 +41,25 @@
         </div>
 
         <ul class="text-lg sm:text-xl">
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Have your own personalized account</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Able to create Discussion posts</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Create your own series</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Upload your own comics and stories</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Promote your pop cultural business through us</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Share your talents through us to the world</div>
           </li>
-          <li class="checkmark mb-6">
+          <li class="checkmark pb-6">
             <div>Learn more of pop culture through us</div>
           </li>
         </ul>
@@ -88,7 +87,7 @@
 
     <div id="container-inner" class="w-4/5 mx-auto py-20 border-b border-gray-500">
       <h2
-        class="uppercase text-5xl text-blue-900 font-bold leading-none tracking-widest mb-6 text-center"
+        class="uppercase text-5xl text-pink-600 font-bold leading-none tracking-widest mb-6 text-center"
       >Meet the founders</h2>
       <div class="flex flex-col sm:flex-row justify-center">
         <div class="sm:w-1/4 p-2 mx-4">
@@ -123,7 +122,7 @@
 
     <div class="container inline">
       <h2
-        class="uppercase text-5xl text-blue-900 font-bold leading-none tracking-widest mb-6 text-center py-8"
+        class="uppercase text-5xl text-pink-600 font-bold leading-none tracking-widest mb-6 text-center py-8"
       >Contact Us</h2>
       <form
         class="w-full max-w-lg mx-auto px-5"
@@ -194,10 +193,10 @@
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
             <button
+            class="bg-pink-600"
               type="submit"
               style="
     padding: 10px 20px;
-    background: #2B6CB0;
     color: white;
     border-radius: 5px;
 "
