@@ -68,7 +68,7 @@
     </div>
 
     <div class="container-inner text-center mx-auto mt-20 pb-20 border-b border-gray-500">
-      <h3 class="font-bold text-4xl uppercase leading-none tracking-wide mb-4" style="color: #B83280">
+      <h3 class="font-bold text-4xl uppercase leading-none tracking-wide mb-4 text-pink-600">
         Click below
         <div class="float-left text-5xl">
           <Below2 />
@@ -85,12 +85,12 @@
       </a>
     </div>
 
-    <div id="container-inner" class="w-4/5 mx-auto py-20 border-b border-gray-500">
+    <div class="container-inner w-full mx-auto py-20 border-b border-gray-500">
       <h2
         class="uppercase text-5xl text-pink-600 font-bold leading-none tracking-widest mb-6 text-center"
       >Meet the founders</h2>
       <div class="flex flex-col sm:flex-row justify-center">
-        <div class="sm:w-1/4 p-2 mx-4">
+        <div class="sm:w-2/5 p-2 mx-4">
           <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
             <div class="mb-3">
               <g-image
@@ -100,11 +100,11 @@
               />
             </div>
             <h2 class="text-xl font-medium text-gray-700 font-bold">Sayed Rafi</h2>
-            <span class="text-blue-500 block mb-5">Founder and Programmer</span>
+            <span class="text-gray-600 block mb-5">Founder and Programmer</span>
           </div>
         </div>
 
-        <div class="sm:w-1/4 p-2 mx-4">
+        <div class="sm:w-2/5 p-2 mx-4">
           <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
             <div class="mb-3">
               <g-image
@@ -114,7 +114,7 @@
               />
             </div>
             <h2 class="text-xl font-medium text-gray-700 font-bold">Ashraful Ribat</h2>
-            <span class="text-blue-500 block mb-5">Founder and Owner</span>
+            <span class="text-gray-600 block mb-5">Founder and Owner</span>
           </div>
         </div>
       </div>
