@@ -145,7 +145,7 @@ export default {
         },
         {
           property: "og:title",
-          content: "Writer: " +
+          content: "Comicsghor: " +
         this.$page.writer.title.charAt(0).toUpperCase() +
         this.$page.writer.title.slice(1),
         },
