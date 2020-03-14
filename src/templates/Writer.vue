@@ -1,9 +1,18 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto py-16">
+    <div class="container-inner mx-auto py-8">
+      <div class="mb-4 flex flex-wrap">
+        <div class="w-full mb-4">
+          <g-image :src="items[`${$page.writer.title}`].avatar" style="height: 150px" class="rounded-full mx-auto h-25" />
+        </div>
+        <div class="w-full mb-4">
+          <h6 class="text-2xl text-pink-600 font-bold pb-3">{{items[`${$page.writer.title}`].name}}</h6>
+          {{items[`${$page.writer.title}`].about}}
+        </div>
+      </div>
       <h2
-        class="text-4xl font-bold mb-8 border-b capitalize"
-      >Writer: {{ $page.writer.title }} has {{$page.writer.belongsTo.totalCount}} posts</h2>
+        class="text-3xl font-bold mb-8 border-b capitalize"
+      >{{ $page.writer.title }} has {{$page.writer.belongsTo.totalCount}} posts</h2>
 
       <div
         v-for="post in $page.writer.belongsTo.edges"
@@ -114,8 +123,14 @@ import PaginationPosts from "../components/PaginationPosts";
 import Book from "../../static/book-open.svg";
 import Pen from "../../static/pen-tool.svg";
 import Arrow from "../../static/arrow-up-right.svg";
+import writers from "../../static/writer.json";
 
 export default {
+  data() {
+    return {
+      items: writers
+    };
+  },
   metaInfo() {
     return {
       title:
@@ -127,6 +142,28 @@ export default {
           name: "Comicsghor-Blog",
           content:
             "Comicsghor Blog. Here you will get comic and anime related blog posts"
+        },
+        {
+          property: "og:title",
+          content: "Writer: " +
+        this.$page.writer.title.charAt(0).toUpperCase() +
+        this.$page.writer.title.slice(1),
+        },
+        {
+          name: "twitter:card",
+          content: this.items[`${this.$page.writer.title}`].avatar
+        },
+        {
+          name: "twitter:creator",
+          content: "@comicsghor"
+        },
+        {
+          property: "og:description",
+          cotent: this.items[`${this.$page.writer.title}`].about
+        },
+        {
+          property: "og:image",
+          content: this.items[`${this.$page.writer.title}`].avatar
         }
       ]
     };

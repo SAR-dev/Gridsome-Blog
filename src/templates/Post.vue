@@ -2,7 +2,10 @@
   <Layout>
     <div class="container-inner mx-auto mb-16">
       <div class="mb-4">
-        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700">
+        <g-link
+          to="/blog"
+          class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700"
+        >
           <svg
             class="h-5 mr-2 fill-current float-left"
             version="1.1"
@@ -26,23 +29,27 @@
       <div class="text-xl text-gray-600 mb-4">{{ $page.post.date }}</div>
       <div class="flex flex-wrap text-sm mb-4">
         <g-link
-          :to="writer.path"
-          v-for="writer in $page.post.writers"
-          :key="writer.id"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
-        ><div class="float-left mr-2"><Pen /></div>{{ writer.title }}</g-link>
-        <g-link
           :to="series.path"
           v-for="series in $page.post.seriess"
           :key="series.id"
           class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
-        ><div class="float-left mr-2"><Book /></div>{{ series.title }}</g-link>
+        >
+          <div class="float-left mr-2">
+            <Book />
+          </div>
+          {{ series.title }}
+        </g-link>
         <g-link
           :to="cat.path"
           v-for="cat in $page.post.cats"
           :key="cat.id"
           class="bg-gray-300 rounded px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white capitalize mb-4"
-        ><div class="float-left mr-2"><Category /></div>{{ cat.title }}</g-link>
+        >
+          <div class="float-left mr-2">
+            <Category />
+          </div>
+          {{ cat.title }}
+        </g-link>
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
       <div class="flex mb-8 text-sm">
@@ -53,8 +60,30 @@
           class="bg-gray-300 rounded-full px-4 py-2 mr-4 text-pink-600 hover:bg-pink-600 hover:text-white"
         >{{ tag.title }}</g-link>
       </div>
+      <div class="my-4">
+        <div class="text-3xl text-center text-pink-600 font-bold">AUTHORS</div>
+        <div
+          v-for="writer in $page.post.writers"
+          :key="writer.id"
+          class="my-2 py-3 border-b-1 border-pink-600 flex flex-wrap"
+        >
+          <div class="md:w-1/5 w-full">
+            <g-image :src="items[`${writer.title}`].avatar" style="height: 100px" class="rounded-full" />
+          </div>
+          <div class="md:w-4/5 md:pt-3 w-full">
+            <g-link
+              :to="writer.path"
+              class="text-xl text-pink-600 font-bold hover:text-pink-800"
+            >{{items[`${writer.title}`].name}}</g-link>
+            <div>{{items[`${writer.title}`].about}}</div>
+          </div>
+        </div>
+      </div>
       <div class="mb-8">
-        <g-link to="/blog" class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700">
+        <g-link
+          to="/blog"
+          class="font-bold uppercase px-4 py-2 mr-4 text-pink-600 hover:text-pink-700"
+        >
           <svg
             class="h-5 mr-2 fill-current float-left"
             version="1.1"
@@ -81,12 +110,31 @@
           :description="$page.post.summary"
           inline-template
         >
-            <network network="facebook">
-              <button class="rounded-full w-full py-3 tracking-wider bg-pink-600 text-white hover:bg-pink-700">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2 inline"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
-                Share On Facebook
-              </button>
-            </network>
+          <network network="facebook">
+            <button
+              class="rounded-full w-full py-3 tracking-wider bg-pink-600 text-white hover:bg-pink-700"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-share-2 inline"
+              >
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+              Share On Facebook
+            </button>
+          </network>
         </social-sharing>
       </div>
       <div class="post-comments">
@@ -133,8 +181,14 @@ query Post ($path: String!) {
 import Book from "../../static/book-open.svg";
 import Pen from "../../static/pen-tool.svg";
 import Category from "../../static/icons/align-left.svg";
+import writers from "../../static/writer.json";
 
 export default {
+  data() {
+    return {
+      items: writers
+    };
+  },
   components: {
     Book,
     Pen,
