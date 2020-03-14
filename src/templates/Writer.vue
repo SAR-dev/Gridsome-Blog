@@ -10,6 +10,40 @@
           {{items[`${$page.writer.title}`].about}}
         </div>
       </div>
+      <div class="pb-10">
+        <social-sharing
+          :url="`https://comicsghor.netlify.com${$page.writer.path}`"
+          :title="items[`${$page.writer.title}`].name"
+          :description="items[`${$page.writer.title}`].about"
+          inline-template
+        >
+          <network network="facebook">
+            <button
+              class="rounded-full w-full py-3 tracking-wider bg-pink-600 text-white hover:bg-pink-700"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-share-2 inline"
+              >
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+              Share On Facebook
+            </button>
+          </network>
+        </social-sharing>
+      </div>
       <h2
         class="text-3xl font-bold mb-8 border-b capitalize"
       >{{ $page.writer.title }} has {{$page.writer.belongsTo.totalCount}} posts</h2>
@@ -87,6 +121,7 @@
 query writer ($id: ID!, $page: Int) {
   writer: writer (id: $id) {
     title
+    path
     belongsTo (page: $page, perPage: 3) @paginate {
       totalCount
       pageInfo {
@@ -134,7 +169,7 @@ export default {
   metaInfo() {
     return {
       title:
-        "Writer: " +
+        "Comicsghor: " +
         this.$page.writer.title.charAt(0).toUpperCase() +
         this.$page.writer.title.slice(1),
       meta: [

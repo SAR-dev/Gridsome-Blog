@@ -61,13 +61,13 @@
         >{{ tag.title }}</g-link>
       </div>
       <div class="my-4">
-        <div class="text-3xl text-center text-pink-600 font-bold">AUTHORS</div>
+        <div class="text-3xl text-pink-600 font-bold">AUTHORS</div>
         <div
           v-for="writer in $page.post.writers"
           :key="writer.id"
           class="my-2 py-3 border-b-1 border-pink-600 flex flex-wrap"
         >
-          <div class="md:w-1/5 w-full">
+          <div class="md:w-1/5 w-full mb-3">
             <g-image :src="items[`${writer.title}`].avatar" style="height: 100px" class="rounded-full" />
           </div>
           <div class="md:w-4/5 md:pt-3 w-full">
