@@ -5,6 +5,9 @@
       <div class="markdown-body">
         <VueRemarkContent />
       </div>
+      <div class="post-comments mt-10">
+        <vue-disqus shortname="comics-ghor-blog" :identifier="$page.documentation.title"></vue-disqus>
+      </div>
     </div>
   </Layout>
 </template>

@@ -3,7 +3,7 @@
     <div class="container-inner mx-auto py-16">
       <h2
         class="text-4xl font-bold mb-8 border-b capitalize"
-      >Series: {{ $page.series.title }} has {{$page.series.belongsTo.totalCount}} posts</h2>
+      >{{ $page.series.title }}<span class="text-gray-600"> {{$page.series.belongsTo.totalCount}} chapters</span></h2>
 
       <div
         v-for="post in $page.series.belongsTo.edges"
@@ -70,6 +70,9 @@
         :totalPages="$page.series.belongsTo.pageInfo.totalPages"
         :currentPage="$page.series.belongsTo.pageInfo.currentPage"
       />
+      <div class="post-comments mt-10">
+        <vue-disqus shortname="comics-ghor-blog" :identifier="$page.series.path"></vue-disqus>
+      </div>
     </div>
   </Layout>
 </template>
@@ -77,6 +80,7 @@
 <page-query>
 query series ($id: ID!, $page: Int) {
   series: series (id: $id) {
+    id
     title
     belongsTo (page: $page, perPage: 3) @paginate {
       totalCount

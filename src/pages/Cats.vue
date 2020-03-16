@@ -3,12 +3,12 @@
     <div class="container-inner mx-auto py-16">
       <h2 class="text-3xl font-bold">Categories</h2>
       <div class="my-4 flex flex-wrap">
+        <div class="w-full md:w-1/3 my-4 px-2 text-2xl" v-for="cat in $page.cats.edges"
+          :key="cat.id">
         <g-link
-          v-for="cat in $page.cats.edges"
-          :key="cat.id"
           :to="cat.node.path"
-          class="bg-gray-300 rounded px-4 py-2 mr-4 hover:bg-pink-600 hover:text-white capitalize my-4 text-pink-600"
-        >{{ cat.node.title }}</g-link>
+          class="w-full block text-center py-10 px-4 bg-gray-300 rounded hover:bg-pink-600 hover:text-white capitalize text-pink-600"
+        >{{ cat.node.title }}</g-link></div>
       </div>
     </div>
   </Layout>
