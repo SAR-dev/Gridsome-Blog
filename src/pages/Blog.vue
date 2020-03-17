@@ -18,9 +18,9 @@
           <div class="w-full lg:w-1/2 mb-4">
             <g-image
               :src="post.node.cover"
-              height="300"
               class="rounded-sm object-cover"
               alt="Cover"
+              style="width: 100%; height: 250px"
             />
           </div>
           <div class="w-full lg:w-1/2 text-lg pr-4 pb-4">
