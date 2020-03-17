@@ -41,7 +41,7 @@
           </p>
         </div>
       </div>
-      <div class="max-w-4xl mx-auto my-5 px-5 text-center text-2xl my-3">
+      <div class="max-w-4xl mx-auto mt-5 mb-10 px-5 text-center text-2xl">
         <div
           class="text-center py-3 rounded border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white text-lg font-bold tracking-widest cursor-pointer"
         >{{$page.shop.orderType}} ( BDT {{$page.shop.price}} )</div>
@@ -80,6 +80,37 @@ import Gallery from "../components/Gallery";
 export default {
   components: {
     Gallery
+  },
+  metaInfo() {
+    return {
+      title: this.$page.shop.title,
+      meta: [
+        {
+          name: "description",
+          content: this.$page.shop.specifications
+        },
+        {
+          property: "og:title",
+          content: this.$page.shop.title
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.shop.cover
+        },
+        {
+          name: "twitter:creator",
+          content: "@comicsghor"
+        },
+        {
+          property: "og:description",
+          cotent: this.$page.shop.specifications
+        },
+        {
+          property: "og:image",
+          content: this.$page.shop.cover
+        }
+      ]
+    };
   }
 };
 </script>

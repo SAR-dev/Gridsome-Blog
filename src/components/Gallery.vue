@@ -29,13 +29,17 @@ export default {
 </script>
 
 <style>
-    .gallery-image {
-        width: 100%;display: inline-block;height: 400px;object-fit: contain;
-    }
-    .slick-slider button, .slick-slider button:hover {
-        border-radius: 50%;
-        background-color: #ffc20e;
-        display: block;
-    }
-    @import "../css/carousel.css"
+.gallery-image {
+  width: 100%;
+  display: inline-block;
+  height: 400px;
+  object-fit: contain;
+}
+.slick-slider button,
+.slick-slider button:hover {
+  border-radius: 50%;
+  background-color: #838383;
+  display: block;
+}
+@import "../css/carousel.css";
 </style>
