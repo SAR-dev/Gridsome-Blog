@@ -35,7 +35,13 @@ query Documentation {
 <script>
 export default {
   metaInfo: {
-    title: 'Docs'
+    title: 'News',
+    meta: [
+      {
+        name: 'Comicsghor-Blog',
+        content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
+      }
+    ]
   }
 }
 </script>

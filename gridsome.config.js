@@ -31,9 +31,9 @@ module.exports = {
 			use: '@gridsome/vue-remark',
 			options: {
 				typeName: 'Documentation', // Required
-				baseDir: './docs', // Where .md files are located
-				pathPrefix: '/docs', // Add route prefix. Optional
-				template: './src/templates/Documentation.vue', // Optional
+				baseDir: './news', // Where .md files are located
+				pathPrefix: '/news', // Add route prefix. Optional
+				template: './src/templates/NewsTemplate.vue', // Optional
 				plugins: [ [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ] ]
 			}
 		},
@@ -42,6 +42,14 @@ module.exports = {
 			options: {
 				path: 'blog/**/*.md',
 				typeName: 'Post',
+				remark: {
+					plugins: [
+						['gridsome-plugin-remark-youtube', {width: '500px', align: 'auto'}],
+						[ '@noxify/gridsome-plugin-remark-embed', {
+							'enabledProviders' : ['Youtube', 'Twitter', 'Soundcloud', 'Giphy'],
+						}]
+					]
+				},
 				refs: {
 					tags: {
 						typeName: 'Tag',
@@ -60,6 +68,21 @@ module.exports = {
 						create: true
 					}
 				}
+			}
+		},
+		{
+			use: '@gridsome/source-filesystem',
+			options: {
+				path: 'shop/**/*.md',
+				typeName: 'Shop',
+				remark: {
+					plugins: [
+						['gridsome-plugin-remark-youtube', {width: '500px', align: 'auto'}],
+						[ '@noxify/gridsome-plugin-remark-embed', {
+							'enabledProviders' : ['Youtube', 'Twitter', 'Soundcloud', 'Giphy'],
+						}]
+					]
+				},
 			}
 		},
 		{
@@ -95,7 +118,8 @@ module.exports = {
 		Tag: '/tag/:id',
 		Series: '/series/:id',
 		Writer: '/writer/:id',
-		Cat: '/cat/:id'
+		Cat: '/cat/:id',
+		Shop: '/shop/:id'
 	},
 	transformers: {
 		remark: {
