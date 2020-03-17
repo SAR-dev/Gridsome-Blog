@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container mx-auto py-10 lg:px-20">
-      <div class="flex flex-wrap items-center">
+      <div class="flex flex-wrap items-center pb-10">
         <div v-for="item in $page.items.edges" :key="item.id" class="w-full md:w-1/3 xl:w-1/4 p-4">
           <g-link :to="item.node.path">
             <div class="bg-gray-200 hover:bg-gray-300 rounded h-64 w-56 mx-auto relative">
@@ -22,13 +22,24 @@
           </g-link>
         </div>
       </div>
+      <pagination-posts
+        v-if="$page.items.pageInfo.totalPages > 1"
+        base="/shop"
+        :totalPages="$page.items.pageInfo.totalPages"
+        :currentPage="$page.items.pageInfo.currentPage"
+      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query ShopItems {
-  items: allShop (sortBy: "date", order: DESC) {
+query ShopItems ($page: Int) {
+  items: allShop (sortBy: "date", order: DESC, perPage: 8, page: $page) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         id
@@ -43,7 +54,12 @@ query ShopItems {
 </page-query>
 
 <script>
+import PaginationPosts from "../components/PaginationPosts";
+
 export default {
+  components: {
+    PaginationPosts,
+  },
   metaInfo: {
     title: "Shop",
     meta: [
