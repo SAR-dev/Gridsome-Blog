@@ -1,12 +1,12 @@
 <template>
   <Layout>
     <div class="container mx-auto mt-4 mb-10">
-      <h1 class="md:text-3xl sm:text-2xl text-xl text-pink-600 font-bold pb-2">{{$page.shop.title}}</h1>
+      <h1 class="md:text-3xl text-2xl text-pink-600 font-bold pb-4">{{$page.shop.title}}</h1>
       <div class="flex flex-wrap">
         <div class="gallery w-full md:w-1/2 sm:py-5">
           <Gallery :images="$page.shop.gallery" />
         </div>
-        <div class="w-full md:w-1/2 p-5 lg:px-10">
+        <div class="w-full md:w-1/2 p-5 lg:px-10 mt-5 md:mt-0">
           <p class="text-base md:text-lg pb-2">
             <strong>Product Name:</strong>
             {{$page.shop.name}}
