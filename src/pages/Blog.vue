@@ -1,5 +1,27 @@
 <template>
   <Layout>
+    <div class="container-inner mx-auto text-center border-b-2 border-gray-600 pb-5">
+      <g-link to="/cats">
+        <div
+          class="inline-block text-white hover:text-gray-600 w-16 md:w-24 py-2 bg-gray-600 rounded-lg mx-2 hover:bg-white border-2 border-gray-600 text-xs font-light md:font-bold md:text-base"
+        >Category</div>
+      </g-link>
+      <g-link to="/series">
+        <div
+          class="inline-block text-white hover:text-gray-600 w-16 md:w-24 py-2 bg-gray-600 rounded-lg mx-2 hover:bg-white border-2 border-gray-600 text-xs font-light md:font-bold md:text-base"
+        >Series</div>
+      </g-link>
+      <g-link to="/tags">
+        <div
+          class="inline-block text-white hover:text-gray-600 w-16 md:w-24 py-2 bg-gray-600 rounded-lg mx-2 hover:bg-white border-2 border-gray-600 text-xs font-light md:font-bold md:text-base"
+        >Tags</div>
+      </g-link>
+      <g-link to="/writers">
+        <div
+          class="inline-block text-white hover:text-gray-600 w-16 md:w-24 py-2 bg-gray-600 rounded-lg mx-2 hover:bg-white border-2 border-gray-600 text-xs font-light md:font-bold md:text-base"
+        >C.C</div>
+      </g-link>
+    </div>
     <div class="container-inner mx-auto py-16">
       <div
         v-for="post in $page.posts.edges"
@@ -7,7 +29,10 @@
         class="post border-gray-400 border-b mb-12"
       >
         <h2 class="text-3xl font-bold">
-          <g-link :to="post.node.path" class="text-copy-primary hover:text-pink-600">{{ post.node.title }}</g-link>
+          <g-link
+            :to="post.node.path"
+            class="text-copy-primary hover:text-pink-600"
+          >{{ post.node.title }}</g-link>
         </h2>
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>

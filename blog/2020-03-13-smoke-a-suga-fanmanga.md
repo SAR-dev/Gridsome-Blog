@@ -6,7 +6,7 @@ summary: A short comic by Arpita Opu. Give it a try.
 tags: ['comic', 'k-pop']
 writers: ['Arpita Opu']
 seriess: ['SMOKE A Suga Fanmanga']
-cats: ['Manga', 'Oneshot']
+cats: ['Comic', 'Oneshot']
 cover: https://i.imgur.com/TH0e6Idl.png
 ---
 

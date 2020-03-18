@@ -30,10 +30,13 @@ export default {
 
 <style>
 .gallery-image {
-  width: 100%;
+  width: 98% !important;
   display: inline-block;
   height: 400px;
   object-fit: contain;
+}
+.slick-slide {
+  text-align: center;
 }
 .slick-slider button,
 .slick-slider button:hover {

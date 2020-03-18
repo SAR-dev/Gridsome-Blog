@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <g-image src="../../static/shop-poster.jpg" style="height: 400px; object-fit: cover" />
     <div class="container mx-auto py-10 lg:px-20">
       <div class="flex flex-wrap justify-center sm:justify-start pb-10">
         <div v-for="item in $page.items.edges" :key="item.id" class="block sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 p-4">
