@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <div class="container mx-auto py-10 lg:px-20">
-      <div class="flex flex-wrap items-center pb-10">
-        <div v-for="item in $page.items.edges" :key="item.id" class="w-full md:w-1/3 xl:w-1/4 p-4">
+      <div class="flex flex-wrap justify-center sm:justify-start pb-10">
+        <div v-for="item in $page.items.edges" :key="item.id" class="block sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 p-4">
           <g-link :to="item.node.path">
-            <div class="bg-gray-200 hover:bg-gray-300 rounded h-64 w-56 mx-auto relative">
-              <g-image :src="item.node.cover" class="p-2" style="height: 100%; width: 100%; object-fit: cover" />
+            <div class="rounded h-56 w-40 sm:h-64 sm:w-56 mx-auto shadow-md relative">
+              <g-image :src="item.node.cover"  style="height: 100%; width: 100%; object-fit: cover" />
               <div class="absolute bottom-0 left-0 pl-3 pb-4">
                 <span
                   class="bg-pink-600 px-2 py-1 rounded-full font-bold text-white"

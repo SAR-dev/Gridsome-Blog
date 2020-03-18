@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container-inner mx-auto py-16">
-      <h2 class="text-3xl font-bold">Authors</h2>
+      <h2 class="text-3xl font-bold">Content Creators</h2>
       <div class="my-4 flex flex-wrap">
         <g-link
           v-for="writer in $page.writers.edges"

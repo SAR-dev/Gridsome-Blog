@@ -61,7 +61,7 @@
         >{{ tag.title }}</g-link>
       </div>
       <div class="my-4">
-        <div class="text-3xl text-pink-600 font-bold">AUTHORS</div>
+        <div class="text-3xl text-pink-600 font-bold">AUTHOR / ARTIST</div>
         <div
           v-for="writer in $page.post.writers"
           :key="writer.id"

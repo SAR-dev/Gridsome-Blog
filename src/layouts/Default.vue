@@ -46,7 +46,7 @@
             <g-link to="/tags" class="text-copy-primary hover:text-gray-600">Tags</g-link>
           </li>
           <li>
-            <g-link to="/writers" class="text-copy-primary hover:text-gray-600">Authors</g-link>
+            <g-link to="/writers" class="text-copy-primary hover:text-gray-600">CC</g-link>
           </li>
         </ul>
       </nav>

@@ -1,47 +1,47 @@
 <template>
   <Layout>
     <div class="container mx-auto mt-4 mb-10">
-      <h1 class="text-3xl text-pink-600 font-bold pb-2">{{$page.shop.title}}</h1>
+      <h1 class="md:text-3xl sm:text-2xl text-xl text-pink-600 font-bold pb-2">{{$page.shop.title}}</h1>
       <div class="flex flex-wrap">
-        <div class="gallery w-full md:w-1/2 py-5">
+        <div class="gallery w-full md:w-1/2 sm:py-5">
           <Gallery :images="$page.shop.gallery" />
         </div>
         <div class="w-full md:w-1/2 p-5 lg:px-10">
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Product Name:</strong>
             {{$page.shop.name}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Price:</strong>
             BDT {{$page.shop.price}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Series:</strong>
             {{$page.shop.series}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Sizes:</strong>
             {{$page.shop.sizes}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Manufacturer:</strong>
             {{$page.shop.manufacturer}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Category:</strong>
             {{$page.shop.category}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Release Date:</strong>
             {{$page.shop.releaseDate}}
           </p>
-          <p class="text-lg pb-2">
+          <p class="text-base md:text-lg pb-2">
             <strong>Specifications:</strong>
             {{$page.shop.specifications}}
           </p>
         </div>
       </div>
-      <div class="max-w-4xl mx-auto mt-5 mb-10 px-5 text-center text-2xl">
+      <div class="max-w-4xl mx-auto my-10 px-5 text-center text-2xl">
         <div
           class="text-center py-3 rounded border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white text-lg font-bold tracking-widest cursor-pointer"
         >{{$page.shop.orderType}} ( BDT {{$page.shop.price}} )</div>
