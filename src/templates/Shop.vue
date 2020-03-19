@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container mx-auto mb-10">
+    <div class="container-inner mx-auto mb-10">
       <g-link
           to="/shop"
           class="font-bold uppercase px-4 py-2 text-pink-600 hover:text-pink-700"
@@ -23,12 +23,12 @@
             />
           </svg>Back to Products
         </g-link>
-      <h1 class="md:text-3xl text-2xl text-pink-600 font-bold py-4 text-center md:text-left">{{$page.shop.title}}</h1>
       <div class="flex flex-wrap">
-        <div class="gallery w-full md:w-1/2 sm:py-5">
+        <div class="gallery w-full py-5">
           <Gallery :images="$page.shop.gallery" />
         </div>
-        <div class="w-full md:w-1/2 p-5 lg:px-10 mt-5 md:mt-0">
+        <h1 class="md:text-3xl text-2xl text-pink-600 font-bold text-center mx-auto mt-5">{{$page.shop.title}}</h1>
+        <div class="w-full p-5 lg:px-10">
           <p class="text-base md:text-lg pb-2">
             <strong>Product Name:</strong>
             {{$page.shop.name}}
@@ -68,7 +68,7 @@
           class="text-center py-3 rounded border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white text-lg font-bold tracking-widest cursor-pointer"
         >{{$page.shop.orderType}} ( BDT {{$page.shop.price}} )</div>
       </div>
-      <div class="max-w-4xl mx-auto mt-5 px-5">
+      <div class="max-w-4xl mx-auto my-5 px-5">
         <div class="markdown-body" v-html="$page.shop.content" />
       </div>
     </div>
