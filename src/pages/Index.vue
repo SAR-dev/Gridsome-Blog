@@ -25,14 +25,8 @@
       <div
         class="projects container-inner mx-auto text-xl border-gray-500 border-b py-16 relative"
       >
-        <h2
-          class="font-black mb-6 text-5xl text-center text-pink-600 leading-none tracking-wide"
-          id="projects"
-        >SOCIAL NETWORKING WEBSITE COMING SOON</h2>
-        <div class="mb-10 text-center">
-          <g-image src="../../static/party-popper.png" width="50" class="inline" />
-          <g-image src="../../static/party-popper.png" width="50" class="inline" />
-          <g-image src="../../static/party-popper.png" width="50" class="inline" />
+        <div class="w-full mb-10">
+          <a href="https://cgsnbd.web.app" target="_blank" class="text-2xl w-full block text-center text-white hover:text-white hover:bg-pink-600 bg-pink-700 rounded py-4">CGSN Comics Ghor Social Network</a>
         </div>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px">

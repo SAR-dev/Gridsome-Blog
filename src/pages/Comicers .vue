@@ -37,7 +37,7 @@
             <span class="font-semibold w-32 my-1">FB Page: </span>
             Life of Geek
           </h1>
-          <a href="https://www.facebook.com/profile.php?id=100030940625075" target="_blank" class="bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/profile.php?id=100030940625075" target="_blank" class="bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
       </div>
@@ -69,10 +69,10 @@
             <span class="font-semibold w-32 my-1">FB Page: </span>
             HaIMIN_TRaDITIONS
           </h1>
-          <a href="https://www.facebook.com/profile.php?id=100016435085772" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/profile.php?id=100016435085772" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
-          <a href="https://www.instagram.com/haimin_traditions/" target="_blank" class="bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.instagram.com/haimin_traditions/" target="_blank" class="bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Instagram
           </a>
       </div>
@@ -100,10 +100,10 @@
             <span class="font-semibold w-32 my-1">Experience: </span>
             3 years (Non Professional)
           </h1>
-          <a href="https://www.facebook.com/salim.arnob" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/salim.arnob" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
-          <a href="https://instagram.com/thesociopathboy?igshid=s2tppp31uqhk" target="_blank" class="bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://instagram.com/thesociopathboy?igshid=s2tppp31uqhk" target="_blank" class="bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Instagram
           </a>
       </div>
@@ -131,16 +131,16 @@
             <span class="font-semibold w-32 my-1">Experience: </span>
             3 months, Graphics Design Competition (1st)
           </h1>
-          <a href="https://www.facebook.com/mh.imran.x" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/mh.imran.x" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
-          <a href="https://www.instagram.com/mh.imran.x/" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.instagram.com/mh.imran.x/" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Instagram
           </a>
-          <a href="https://pushon.artstation.com/" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://pushon.artstation.com/" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Artstation
           </a>
-          <a href="https://www.deviantart.com/mhimranhossain" target="_blank" class="bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.deviantart.com/mhimranhossain" target="_blank" class="bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Deviantart
           </a>
       </div>
@@ -168,10 +168,10 @@
             <span class="font-semibold w-32 my-1">Experience: </span>
             10 Exhibitions in various places
           </h1>
-          <a href="https://www.facebook.com/sagufta.nowrin" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/sagufta.nowrin" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
-          <a href="https://www.instagram.com/sagufta_nowrin_suchona/?funlid=65RQGUiAqSajP0SL" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.instagram.com/sagufta_nowrin_suchona/?funlid=65RQGUiAqSajP0SL" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Instagram
           </a>
       </div>
@@ -199,10 +199,10 @@
             <span class="font-semibold w-32 my-1">Experience: </span>
             3 years
           </h1>
-          <a href="https://www.facebook.com/san.john.9480/" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.facebook.com/san.john.9480/" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
           </a>
-          <a href="https://www.instagram.com/_fruit_punch_artist/" target="_blank" class="mr-2 bg-pink-700 text-white text-lg my-2 rounded px-4 py-1">
+          <a href="https://www.instagram.com/_fruit_punch_artist/" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Instagram
           </a>
       </div>
