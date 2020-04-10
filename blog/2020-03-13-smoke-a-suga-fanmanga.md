@@ -23,6 +23,3 @@ cover: https://i.imgur.com/TH0e6Idl.png
 ![006](https://i.imgur.com/NjO6kwp.jpg)
 
 ![007](https://i.imgur.com/8ieeINV.jpg)
-
-
-

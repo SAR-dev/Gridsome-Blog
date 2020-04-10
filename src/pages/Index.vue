@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="hero container mx-auto flex flex-col sm:flex-row justify-between pt-16">
-      <div class="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
+    <div class="hero container mx-auto flex flex-col md:flex-row justify-between pt-16">
+      <div class="md:w-3/5 flex flex-col items-center md:items-start text-center md:text-left">
         <h1
           class="uppercase text-5xl text-blue-900 font-bold leading-none tracking-wide mb-2"
         >Comics Ghor</h1>
@@ -16,14 +16,14 @@
         >The idea of creating Comics Ghor was a dream for quite long. We want nothing but to unleash your latent talents without hesitation. Comics Ghor is created with that purpose, as the home of all creative people.</p>
       </div>
 
-      <div class="mb-10 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:px-12">
-        <g-image src="../../static/carousel.svg" class="object-cover" />
+      <div class="mb-10 md:mb-0 mt-8 md:mt-0 md:w-2/5 md:px-12">
+        <g-image src="../../static/cover.png" class="object-cover" />
       </div>
     </div>
 
     <div class="overflow-x-hidden mt-8">
       <div
-        class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 relative"
+        class="projects container-inner mx-auto text-xl border-gray-500 border-b py-16 relative"
       >
         <h2
           class="font-black mb-6 text-5xl text-center text-pink-600 leading-none tracking-wide"

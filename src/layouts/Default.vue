@@ -4,12 +4,10 @@
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/" style="border: none">
-            <!-- <g-image src="../../static/logo.png" class="w-10" alt="logo" /> -->
-            <span class="text-2xl text-pink-600">Comics Ghor</span>
+            <g-image src="../../static/navlogo.png" class="w-auto h-10 inline mr-2" alt="logo" />
           </g-link>
           <g-link v-else to="/" style="border: none">
-            <!-- <g-image src="../../static/logo.png" class="w-10" alt="logo" /> -->
-            <span class="text-2xl text-pink-600">Comics Ghor</span>
+            <g-image src="../../static/navlogo.png" class="w-auto h-10 inline mr-2" alt="logo" />
           </g-link>
         </div>
         <div class="block lg:hidden">
@@ -32,6 +30,9 @@
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+          </li>
+          <li class="mr-8 mb-6 lg:mb-0">
+            <g-link to="/comicers" class="text-copy-primary hover:text-gray-600">Comicers</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/shop" class="text-copy-primary hover:text-gray-600">Shop</g-link>
