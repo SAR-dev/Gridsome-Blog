@@ -166,7 +166,7 @@
           </h1>
           <h1 class="text-xl w-full flex">
             <span class="font-semibold w-32 my-1">Experience: </span>
-            10 Exhibitions in various places
+            3 years (Professional), 10 Exhibitions in various places
           </h1>
           <a href="https://www.facebook.com/sagufta.nowrin" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
             Facebook
