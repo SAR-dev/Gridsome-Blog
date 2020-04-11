@@ -13,28 +13,28 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Raiyean Alrazee
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Pen Name: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Pen Name: </span>
             Ray Tetsuro
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Student
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             18
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Drawing, Watching Anime, Reading Books
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             4 years (Official)
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">FB Page: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">FB Page: </span>
             Life of Geek
           </h1>
           <a href="https://www.facebook.com/profile.php?id=100030940625075" target="_blank" class="bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
@@ -49,24 +49,24 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Haimin Torzo
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Student
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             20
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Singing
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             6 years (Non Professional)
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">FB Page: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">FB Page: </span>
             HaIMIN_TRaDITIONS
           </h1>
           <a href="https://www.facebook.com/profile.php?id=100016435085772" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
@@ -84,20 +84,20 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Sadman Arnob
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Student
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             19
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Photography
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             3 years (Non Professional)
           </h1>
           <a href="https://www.facebook.com/salim.arnob" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
@@ -115,20 +115,20 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Imran Hossain
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Part-time Graphics Designer @ intime studios
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             21
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Research (Philosophy, Science, Psychology, Human Brain)
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             3 months, Graphics Design Competition (1st)
           </h1>
           <a href="https://www.facebook.com/mh.imran.x" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
@@ -152,20 +152,20 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Sagufta Nowrin 
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Student
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             21
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Reading, Painting, Crafting, Gardening
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             3 years (Professional), 10 Exhibitions in various places
           </h1>
           <a href="https://www.facebook.com/sagufta.nowrin" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">
@@ -183,20 +183,20 @@
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
             Samiha Binte Ali 
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Occupation: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Occupation: </span>
             Student
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Age: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Age: </span>
             18
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Hobby: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Hobby: </span>
             Drawing, Watching movies and anime, Stalking cats
           </h1>
-          <h1 class="text-xl w-full flex">
-            <span class="font-semibold w-32 my-1">Experience: </span>
+          <h1 class="text-base md:text-xl w-full flex">
+            <span class="font-semibold w-32 table my-1">Experience: </span>
             3 years
           </h1>
           <a href="https://www.facebook.com/san.john.9480/" target="_blank" class="mr-2 bg-pink-700 text-white hover:text-white  text-lg my-2 rounded px-4 py-1">

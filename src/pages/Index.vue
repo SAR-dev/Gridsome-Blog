@@ -26,7 +26,7 @@
         class="projects container-inner mx-auto text-xl border-gray-500 border-b py-16 relative"
       >
         <div class="w-full mb-10">
-          <a href="https://cgsnbd.web.app" target="_blank" class="text-2xl w-full block text-center text-white hover:text-white hover:bg-pink-600 bg-pink-700 rounded py-4">CGSN Comics Ghor Social Network</a>
+          <a href="https://cgsnbd.web.app" target="_blank" class="text-2xl w-full block text-center text-white hover:text-white hover:bg-pink-600 bg-pink-700 rounded p-4">CGSN Comics Ghor Social Network</a>
         </div>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px">
