@@ -18,6 +18,7 @@ query Documentation ($id: ID!) {
   documentation(id: $id) {
     title
     excerpt
+    cover
   }
 }
 </page-query>
@@ -26,8 +27,34 @@ query Documentation ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.documentation.title
-    }
+      title: this.$page.documentation.title,
+      meta: [
+        {
+          name: "description",
+          content: this.$page.documentation.excerpt
+        },
+        {
+          property: "og:title",
+          content: this.$page.documentation.title
+        },
+        {
+          name: "twitter:card",
+          content: this.$page.documentation.cover
+        },
+        {
+          name: "twitter:creator",
+          content: "@comicsghor"
+        },
+        {
+          property: "og:description",
+          cotent: this.$page.documentation.excerpt
+        },
+        {
+          property: "og:image",
+          content: this.$page.documentation.cover
+        }
+      ]
+    };
   }
 }
 </script>

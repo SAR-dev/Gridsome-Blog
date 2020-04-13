@@ -68,7 +68,7 @@
           class="my-2 py-3 border-b-1 border-pink-600 flex flex-wrap"
         >
           <div class="md:w-1/5 w-full mb-3">
-            <g-image :src="items[`${writer.title}`].avatar" style="height: 100px" class="rounded-full" />
+            <g-image :src="items[`${writer.title}`].avatar" style="height: 100px; width: 100px; object-fit: cover" class="shadow rounded-full" />
           </div>
           <div class="md:w-4/5 md:pt-3 w-full">
             <g-link

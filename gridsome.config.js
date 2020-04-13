@@ -73,8 +73,8 @@ module.exports = {
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
-				path: 'shop/**/*.md',
-				typeName: 'Shop',
+				path: 'event/**/*.md',
+				typeName: 'Event',
 				remark: {
 					plugins: [
 						['gridsome-plugin-remark-youtube', {width: '500px', align: 'auto'}],
@@ -119,7 +119,7 @@ module.exports = {
 		Series: '/series/:id',
 		Writer: '/writer/:id',
 		Cat: '/cat/:id',
-		Shop: '/shop/:id'
+		Event: '/event/:id'
 	},
 	transformers: {
 		remark: {

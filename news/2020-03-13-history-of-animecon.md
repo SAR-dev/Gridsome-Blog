@@ -1,29 +1,40 @@
 ---
-title: The History of AnimeCon Dhaka - Deshi Geek
-excerpt: AnimeCon Dhaka began in 2014 with humble beginnings, when a group of anime enthusiasts decided that the conventions for Bangladesh should be broadened to cater to anime and manga fans.
+title: AnimeCon এর ইতিবৃত্ত
+excerpt: একদিন প্রচন্ড উৎসাহ-উদ্দীপনার সাথে অলি শাহরিয়ার বলে উঠলেন, “আচ্ছা, আমরা সবই মিলে একজোট হয়ে বাংলাদেশের প্রথম এ্যানিমে কনভেনশন উৎযাপন করলে কেমন হয়?” ওয়াকিল আহমেদ সাবি উত্তরে বললেন, “ব্যাপারটা খুবই জোস হবে। আমি একপায়ে রাজি।”
+cover: https://i.imgur.com/9yoW568.jpg
 ---
-### THE HISTORY OF ANIMECON DHAKA - DESHI GEEK
+বর্তমানে ঢাকায় বসবাসকারীদের অনেকেই বিভিন্ন পপ-কালচারাল কনভেনশনগুলোর সাথে পরিচিত। আর বিশেষ করে আপনি যদি ১৫-৩০ বছর বয়সী কেউ হন, তাহলে কনভেনশনগুলোর ব্যাপারে জানার নিশ্চয়তা প্রায় ৯০%। কিংবা, আপনি যদি একেবারেই এসবে বেখেয়ালি থাকেন, তবুও DC/Marvel এর সুপারহিরো মুভিগুলোর কল্যাণে “কমিক কন” কথাটার সাথে অবশ্যই পরিচিত হয়ে থাকবেন।
 
-![cover](https://i.imgur.com/DLV2oNy.png)
+আর পপ কালচার জগত সম্বন্ধে মোটামুটি ধারণা থাকলে আপনি “এ্যানিমে” শব্দটির সাথে পরিচিত হতে বাধ্য, বা অন্তত বেশ কয়েকবার শব্দটি শুনেওছেন। আপনি যদি ব্যাস্ত কোনো সরকারি/বেসরকারি চাকুরিজীবীও হন, আপনার ছেলেমেয়ের কল্যানেও হয়ত কিছু “এ্যানিমে” দেখা হয়েছে বা জিনিসটা কি সে ব্যাপারে ধারণা এসেছে। কিন্তু আপনি জানেন কি বাংলাদেশে ঢাকায় গত ৩ বছর ধরে শুধু এই “এ্যানিমে”-র ওপর ভিত্তি করে জম্পেশ কনভেনশন হয়ে আসছে?
 
-“Hey, we should all come together to create the first Convention for anime in Bangladesh!” Oly suggested, enthusiastic.
+আজকে আপনাদের জানাবো সেই “এ্যানিমে কনভেনশন” বা ছোট করে “এ্যানিমেকন” এর ইতিবৃ্ত্ত ।
 
-“That would be so cool. I’m totally up for it!” I replied with similar enthusiasm.
+গল্পটার শুরু এভাবে-
 
-AnimeCon Dhaka began in 2014 with humble beginnings, when a group of anime enthusiasts decided that the conventions for Bangladesh should be broadened to cater to anime and manga fans. That was when Oly Shahriar Hassan, Asif Muznabeen and I created the event.
+> _একদিন প্রচন্ড উৎসাহ-উদ্দীপনার সাথে অলি শাহরিয়ার বলে উঠলেন, “আচ্ছা, আমরা সবই মিলে একজোট হয়ে বাংলাদেশের প্রথম এ্যানিমে কনভেনশন উৎযাপন করলে
+> কেমন হয়?”_
+> _ওয়াকিল আহমেদ সাবি উত্তরে বললেন, “ব্যাপারটা খুবই জোস হবে। আমি একপায়ে রাজি।”_
 
-We had always been an ambitious bunch and wanted to host the first major event. We started with humble beginnings with a simple meet that featured an art-contest and fan-fic writing competition in “Shalimar Garden” in Banani with 50 people attending. The event was a success and we were encouraged to pursue higher events.
+ওয়াকিল সাহেবের ভাষ্যমতে, এনিমেকনের আনঅফিশিয়াল যাত্রা শুরু ২০১৪ সালে, কয়েকজন এ্যানিমেপ্রেমী উদ্যমী ব্যাক্তিদের হাত ধরে, যারা স্বপ্ন দেখেছিলেন বাংলাদেশের কনভেনশন প্রথাটাকে আরো প্রসারিত করে এ্যানিমে-প্রেমী মানুষদের জন্য একটা কনভেনশন করার, যেটা হবে সকল এ্যানিমে ও মাঙ্গাপ্রেমীদের জন্য মিলনায়তন ও প্রাণকেন্দ্র। (উল্লেখ্য এর বেশ কয়েক বছর আগে থেকে ঢাকায় কমিক কন-এর প্রচলন হয়।)
 
-Oly, Asif and I started working toward a proper AnimeCon early 2015, taking inspiration from various conventions throughout the world – Anime Boston, Comiket, Otakon and the like. And after a whole year of planning, and putting together the best team possible, we finally began in 2016, and the first AnimeCon came to life early July in Al-Fuad Community Center in Mirpur.
+![enter image description here](https://i.imgur.com/9yoW568.jpg)
 
-The event was hosted on a Friday, from 2 pm and the attendees reached a total of 1000 participants, and thus the first convention dedicated to anime, not only in Bangladesh, but the entire subcontinent flew off. Staying true to the style of conventions, the event had cosplay, with a cosplay competition that rewarded the best cosplay, a Japanese style fishing booth, various pop-culture merchandise stalls and even a stall with Japanese styled food, bands performed songs, and groups performed dances.
+তো, তাদের ওই উদ্যম প্রাণবন্ত থাকতেই তা উদ্যোগে পরিণত করেন **_অলি শাহরিয়ার হাসান, আসিফ মুজনাবিন এবং ওয়াকিল আহমেদ সাবি_** । উনাদের অনেকদিনের সুপ্ত বাসনা ও বাংলাদেশের বিরাট কোনো এক ইভেন্ট সংগঠন করার উচ্চাকাঙ্ক্ষাকে সামনে নিয়ে প্রথম পদক্ষেপ নেন, একটি সাধারণ এনিমে মিট-আপ ডাকার মাধ্যমে, যেটা হয়েছিল রাজধানীর বনানীর ‘শালিমার গার্ডেন’ রেস্টুরেন্ট –এ। মোটামুটি ৫০ জনের সেই মিটে বিভিন্ন কম্পিটিশনের আয়োজন করাও হয়েছিল যেমন, এ্যানিমে আর্ট-কন্টেস্ট, ফ্যান-ফিকশন লেখার প্রতিযোগিতা ইত্যাদি। এবং, মোটামুটি টেস্টরান প্রজেক্ট হিসেবে সফল সেই ইভেন্টই পরবর্তীতে বছর ধরে টানা সফল বড় ইভেন্টগুলোর পেছনে যোগায় উদ্দীপনা, সাহস ও প্রেরণা।
 
-![inline](https://i.imgur.com/myadF42.png)
+![enter image description here](https://i.imgur.com/u40RARu.png)
 
-AnimeCon Dhaka was held again the following year in 2017, and this time at Mirpur Convention Center, with a larger audience of 2000+ attendees, and nodding at our previous convention, this time we also hosted a similar but larger cosplay competition that gave us some beautifully crafted cosplay, showcasing the talents of our youth. Once again, we kept Japanese food, a goldfish booth, with bands catering to anime soundtracks, and dance routines, but this time we added an art gallery to show the beautiful artworks of the community, a gaming booth that hosted a gaming competition. Our second event was a hit!
+২০১৫  সাল  পুরো  সময়  ধরে  Anime Boston, Comiket, Otakon-সহ নানান আন্তর্জাতিক মানের কনভেনশন পর্যবেক্ষণ করে, ২০১৬  সালে অবশেষে রাজধানীর মিরপুরে ‘আল-ফুয়াদ কমিউনিটি সেন্টার’-এ প্রথম আনুষ্ঠানিকভাবে দেশের সর্বপ্রথম এনিমেকন উদযাপন ও প্রবর্তন করেন তারা। সেই বার প্রথম কন-এই ১০০০ এর অধিক মানুষ অংশ নেয়। এর পরবর্তী বছরেই এনিমে কনভেনশনে আরো আপগ্রেড এনে, আরো কিছু নতুন ও আকর্ষণীয় ফিচার যোগ করে পুনরায় এনিমেকন উদযাপন করা হয় ২০১৭ সালে। সেবার ২০০০ এর অধিক মানুষের সমাগম দেখা দেয়। এবং অনিবার্য কারণে ২০১৮ সালে কোনো এনিমেকন না হলেও ২০১৯ সালে পুনরায় এনিমেকন হয় এবং সেখানে প্রায় সাড়ে ৪০০০ এর মত জনসমাগম দেখা যায়।
 
-2019 marks the third time AnimeCon Dhaka will be hosted, bigger and better than the events previously hosted, and with June right around the corner, we are excited to see just how much better we can make the event!
+বাংলাদেশে এখন প্রতিষ্ঠিত ও নিয়মিত বাৎসরিকভাবে যেই কয়টি কনভেনশন উদযাপন করা হয়, তার মধ্যে এনিমেকম ঢাকা অন্যতম। এখানে দেশের নানান অঞ্চল থেকে জাপানী পপ-কালচার- নার্ড ও জাপানি পপ কালচারের বিশাল ও গুরুত্বপূর্ণ অংশ ‘এনিমে ও মাঙ্গা’ কালচারে অনুরাগী মানুষের আনাগোনা হয়, সকলে মন খুলে ইভেন্ট উপভোগ করে, বিভিন্ন প্রিয় এনিমে চরিত্রের সাজে সাজ নিয়ে মানুষ ‘কসপ্লে’ করে (কস্টিউম প্লে) এবং বাংলাদেশের বুকে কয়েকঘন্টার জন্য জাপানিজ এনিমে কালচারের স্বাদ নেওয়ার আশায় ভিড় জমায়।
 
-**Wakil Ahmed Shabi**
+এবছরেও আরো নতুন রুপে এনিমেকন ২০২০ উদযাপন করার কথা এবং সেই মতই প্রস্তুতি চলছিল। কিন্তু গ্লোবাল প্যান্ডেমিক করোনাভাইরাসের কারণে গোটা পৃথিবী যেমন থেমে গেছে, সেভাবেই থেমে গেছে ‘’এনিমেকন ২০২০’’ এর কার্যক্রম। এখন দেখা যাক, কবে আমরা এই ভাইরাস থেকে মুক্তি পাই এবং আবার সকলে মিলে এনিমেকন উপভোগ করতে পারি। কি বলো বন্ধুরা?
 
-**News Credit:** Deshi Geek Magazine
+![enter image description here](https://i.imgur.com/bq7RriB.png)
+
+ধন্যবাদ Deshi Geek Magazine কে, কমিক্স ঘরকে প্রয়োজনীয় তথ্য দিয়ে সহায়তা করার জন্য।
+
+https://www.deshigeek.media
+
+প্রতিবেদন লিখেছেন- Md. Ashraful B. Ribat
+
+একটি কমিক্স ঘরের নিজস্ব প্রতিবেদন।

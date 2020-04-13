@@ -28,12 +28,6 @@
         <div class="w-full mb-10">
           <a href="https://cgsnbd.web.app" target="_blank" class="text-2xl w-full block text-center text-white hover:text-white hover:bg-pink-600 bg-pink-700 rounded p-4">CGSN Comics Ghor Social Network</a>
         </div>
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
         <ul class="text-lg sm:text-xl">
           <li class="checkmark pb-6">
             <div>Have your own personalized account</div>
@@ -133,7 +127,6 @@
               class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
-              placeholder="Jane"
               name="First Name"
               required
             />
@@ -147,7 +140,6 @@
               class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-last-name"
               type="text"
-              placeholder="Doe"
               name="Last Name"
               required
             />
@@ -163,7 +155,6 @@
               class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
-              placeholder="john-doe@gmail.com"
               name="Email"
               required
             />
@@ -190,10 +181,9 @@
             class="bg-pink-600"
               type="submit"
               style="
-    padding: 10px 20px;
-    color: white;
-    border-radius: 5px;
-"
+                padding: 10px 20px;
+                color: white;
+                border-radius: 5px;"
             >Send</button>
           </div>
           <div class="md:w-2/3"></div>

@@ -26,16 +26,16 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/news" class="text-copy-primary hover:text-gray-600">News</g-link>
+            <g-link to="/home" class="text-copy-primary hover:text-gray-600">Home</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+            <g-link to="/article" class="text-copy-primary hover:text-gray-600">Article</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/comicers" class="text-copy-primary hover:text-gray-600">Comicers</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <g-link to="/shop" class="text-copy-primary hover:text-gray-600">Shop</g-link>
+            <g-link to="/event" class="text-copy-primary hover:text-gray-600">Events</g-link>
           </li>
         </ul>
       </nav>

@@ -3,11 +3,16 @@
     <div class="container-inner mx-auto py-8">
       <div class="mb-4 flex flex-wrap">
         <div class="w-full mb-4">
-          <g-image :src="items[`${$page.writer.title}`].avatar" style="height: 150px" class="rounded-full mx-auto h-25" />
+          <g-image :src="items[`${$page.writer.title}`].avatar" style="max-height: 300px" class="rounded mx-auto h-25" />
         </div>
-        <div class="w-full mb-4">
-          <h6 class="text-2xl text-pink-600 font-bold pb-3">{{items[`${$page.writer.title}`].name}}</h6>
+        <div class="w-full mb-2">
+          <h6 class="text-2xl text-pink-600 font-bold pb-3">
+            {{items[`${$page.writer.title}`].name}}
+          </h6>
           {{items[`${$page.writer.title}`].about}}
+        </div>
+        <div class="mb-2">
+          <a :href="items[`${$page.writer.title}`].fb" class="text-base text-pink-700 hover:text-pink-600" target="_blank">Visit My Facebook Page</a>
         </div>
       </div>
       <div class="pb-10">
