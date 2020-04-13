@@ -200,7 +200,7 @@ import Below2 from "../../static/corner-left-down.svg";
 
 export default {
   metaInfo: {
-    title: "Home",
+    title: "Welcome",
     meta: [
         {
           name: "description",

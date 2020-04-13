@@ -135,7 +135,7 @@ import Arrow from "../../static/arrow-up-right.svg";
 
 export default {
   metaInfo: {
-    title: "Blog",
+    title: "Home",
     meta: [
       {
         name: "Comicsghor-Blog",
