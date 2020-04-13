@@ -9,7 +9,7 @@ module.exports = {
 	siteName: 'Comics Ghor',
 	icon: './static/logo.png',
 	siteDescription: 'Welcome to Comics Ghor, a Bangladeshi website. The purpose of Comics Ghor is to create a free platform for all the Bangladeshi people, of all age, who desire to draw comics or write novels, stories or more',
-	siteUrl: 'https://mystifying-poincare-a14ed5.netlify.com',
+	siteUrl: 'https://comicsghor.netlify.com',
 	chainWebpack: (config) => {
 		const svgRule = config.module.rule('svg');
 		svgRule.uses.clear();

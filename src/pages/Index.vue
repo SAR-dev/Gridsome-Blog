@@ -212,7 +212,7 @@ export default {
         },
         {
           name: "twitter:card",
-          content: "https://i.imgur.com/Jtqiplv.jpg"
+          content: "https://i.imgur.com/MsKyaVr.png"
         },
         {
           name: "twitter:creator",
@@ -224,7 +224,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "https://i.imgur.com/Jtqiplv.jpg"
+          content: "https://i.imgur.com/MsKyaVr.png"
         }
       ]
   },
