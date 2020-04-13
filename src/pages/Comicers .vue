@@ -13,9 +13,9 @@
           class="w-full bg-gray-300 rounded px-4 py-2 hover:bg-pink-600 hover:text-white capitalize my-4 text-pink-600"
         >Raiyean Alrazee</g-link>
         <g-link
-        to="/comicers/haimin-torzo"
+        to="/comicers/haimin-turzo"
           class="w-full bg-gray-300 rounded px-4 py-2 hover:bg-pink-600 hover:text-white capitalize my-4 text-pink-600"
-        >Haimin Torzo</g-link>
+        >Haimin Turzo</g-link>
         <g-link
         to="/comicers/sadman-arnob"
           class="w-full bg-gray-300 rounded px-4 py-2 hover:bg-pink-600 hover:text-white capitalize my-4 text-pink-600"

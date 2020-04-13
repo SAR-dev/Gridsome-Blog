@@ -7,7 +7,7 @@
               <g-image src="https://i.imgur.com/CTRhxVY.jpg" class="h-40 w-40 rounded object-cover shdow-lg border-2 border-gray-400" />
           </div>
           <h1 class="text-xl md:text-3xl font-bold mb-2 w-full flex">
-            Haimin Torzo
+            Haimin Turzo
           </h1>
           <h1 class="text-base md:text-xl w-full flex">
             <span class="font-semibold w-32 table my-1">Occupation: </span>
