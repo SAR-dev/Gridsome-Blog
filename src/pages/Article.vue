@@ -3,13 +3,13 @@
     <div class="container-inner mx-auto py-16">
       <div v-for="doc in $page.docs.edges" :key="doc.id" class="post border-gray-400 border-b mb-12">
         <h2 class="text-3xl font-bold"><g-link :to="doc.node.path" class="text-copy-primary hover:text-pink-600">{{ doc.node.title }}</g-link></h2>
+        <g-image :src="doc.node.cover" class="h-64 w-full object-cover my-5" />
         <div class="text-lg mb-4">
+          <g-link :to="doc.node.path" class="hover:text-pink-700 text-gray-500 font-light">
           {{ doc.node.excerpt }}
+          </g-link>
         </div>
-        <div class="mb-8">
-          <g-link :to="doc.node.path" class="font-bold uppercase text-pink-600 hover:text-pink-700">Read More</g-link>
-        </div>
-      </div> <!-- end post -->
+        </div> <!-- end post -->
 
     </div>
   </Layout>
@@ -24,6 +24,7 @@ query Documentation {
         path
         title
         excerpt
+        cover
       }
     }
   }

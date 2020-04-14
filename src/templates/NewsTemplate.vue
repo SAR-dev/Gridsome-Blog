@@ -2,7 +2,7 @@
   <Layout>
     <div class="container-inner mx-auto my-16">
       <h1 class="text-4xl font-bold leading-tight">{{ $page.documentation.title }}</h1>
-      <div class="markdown-body">
+      <div class="markdown-body article">
         <VueRemarkContent />
       </div>
       <div class="post-comments mt-10">
