@@ -3,6 +3,7 @@ title: Art Challenge- SPC (Superhero Punching Coronavirus)
 path: /art-challenge-spc
 date: 2020-04-17
 cover: https://i.imgur.com/73DPstp.jpg
+summary: How is the quarantine going?? Pretty Bored ? Well, thinking about the boredom, Comics Ghor-কমিক্স ঘর is now hosting an "Art Challenge" for all. And by the word "For All" I mean All. Anyone who speaks English can take part in this Art Challenge.
 ---
 **Greetings People!!**
 

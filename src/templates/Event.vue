@@ -23,6 +23,7 @@ query Event ($id: ID!) {
       title
       content
       cover
+      summary
   }
 }
 </page-query>
@@ -35,7 +36,7 @@ export default {
       meta: [
         {
           name: "description",
-          content: this.$page.event.specifications
+          content: this.$page.event.summary
         },
         {
           property: "og:title",
@@ -51,7 +52,7 @@ export default {
         },
         {
           property: "og:description",
-          cotent: this.$page.event.specifications
+          cotent: this.$page.event.summary
         },
         {
           property: "og:image",
