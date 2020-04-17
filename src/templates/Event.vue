@@ -7,6 +7,7 @@
         alt="Cover"
         style="width: 100%;"
       />
+	<h1 class="text-3xl font-semibold mb-5">{{$page.event.title}}</h1>
       <div class="markdown-body mb-8" v-html="$page.event.content" />
       <div class="post-comments mt-10">
         <vue-disqus shortname="comics-ghor-blog" :identifier="$page.event.title"></vue-disqus>
