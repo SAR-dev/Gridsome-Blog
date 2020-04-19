@@ -1,20 +1,18 @@
 ---
 title: Legendary Animator of “Tom &amp; Jerry” and “Popeye”, Gene Deitch Died
-excerpt: Oscar-Winning Illustrator, Animator, Film Director, and Producer was 95 on his death. Gene Deitch was known worldwide for the part for his work in Tom and Jerry and Popeye cartoons an later his film Munro won the Academy Award for Best Animated Short Film in 1960. 
+excerpt: Oscar-Winning Illustrator, Animator, Film Director, and Producer was 95 on his death. Gene Deitch was known worldwide for the part for his work in Tom and Jerry and Popeye cartoons an later his film Munro won the Academy Award for Best Animated Short Film in 1960.
 cover: https://i.imgur.com/wsGSV7K.png
 ---
 
-**Legendary Animator of “Tom & Jerry” and “Popeye”, Gene Deitch Died**
-
-Oscar-Winning Illustrator, Animator, Film Director, and Producer was 95 on his death. 
-Gene Deitch was known worldwide for the part for his work in Tom and Jerry and Popeye cartoons an later his film Munro won the Academy Award for Best Animated Short Film in 1960. 
+Oscar-Winning Illustrator, Animator, Film Director, and Producer was 95 on his death.
+Gene Deitch was known worldwide for the part for his work in Tom and Jerry and Popeye cartoons an later his film Munro won the Academy Award for Best Animated Short Film in 1960.
 
 ![enter image description here](https://i.imgur.com/wsGSV7K.png)
 
 Among his credits was creating the Tom Terrific short, which was presented as part of the Captain Kangaroo children’s television show. Created under the Terrytoons studio and adapted from an earlier Deitch comic strip, Tom Terrific was a black and white, five-minute short that was modeled on children’s drawings.
 
- Deitch was also nominated for the same award twice in 1964 for Here’s Nudnik and How to Avoid Friendship. 
-According to his Czech publisher, Petr Himmel, Deitch died unexpectedly on Thursday night at his home in Prague.  No additional details or cause of death were added. 
+ Deitch was also nominated for the same award twice in 1964 for Here’s Nudnik and How to Avoid Friendship.
+According to his Czech publisher, Petr Himmel, Deitch died unexpectedly on Thursday night at his home in Prague.  No additional details or cause of death were added.
 
 ![enter image description here](https://i.imgur.com/4a5AkWc.png)
 
@@ -30,7 +28,7 @@ Working behind the Iron Curtain of the then time, this genius animator also dire
 
 In 2004, he received the Winsor McCay Award for his lifelong contribution to animation.
 The animation world as well as people around the whole world mourns his death.
- 
+
 **Article Written by- Ashraful B. Ribat
 Source: Internet**
 
