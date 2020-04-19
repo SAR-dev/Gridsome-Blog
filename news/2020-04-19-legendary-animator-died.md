@@ -1,5 +1,5 @@
 ---
-title: Legendary Animator of “Tom &amp; Jerry” and “Popeye”, Gene Deitch Died
+title: Legendary Animator of “Tom and Jerry” and “Popeye”, Gene Deitch Died
 excerpt: Oscar-Winning Illustrator, Animator, Film Director, and Producer was 95 on his death. Gene Deitch was known worldwide for the part for his work in Tom and Jerry and Popeye cartoons an later his film Munro won the Academy Award for Best Animated Short Film in 1960.
 cover: https://i.imgur.com/wsGSV7K.png
 ---
