@@ -59,6 +59,6 @@ Thus that is the moment we make up our minds and follow such tropes whole hearte
 > and this was a writing Requested by one of my friend who is an YLIA
 > fan. Thanks you All]
 
-**"Anime Trope Talk" is brought to you by: Sk Rasha Rupok**
+**[Rupok](https://web.facebook.com/skrasha.rupok)**
 **ANIME TROPE TALK (VOL. 1)
 A Comics Ghor Original Article**
