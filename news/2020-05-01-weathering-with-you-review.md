@@ -4,7 +4,7 @@ excerpt: আনিমের এই জগতে আমার পা রাখা
 cover: https://imgur.com/8hEIopQl.jpg
 date: 2020-05-01
 --- 
-## এনিমে প্রতিবেদন: ওয়েদারিং উইথ ইউ (মুভি)
+**এনিমে প্রতিবেদন: ওয়েদারিং উইথ ইউ (মুভি)**
 
 ![enter image description here](https://imgur.com/8hEIopQl.jpg)
 

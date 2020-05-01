@@ -4,7 +4,6 @@ excerpt: The short world of animated scripts is how Kikumana is perceived, A sho
 cover: https://imgur.com/SWzQVIil.jpg
 date: 2020-05-01
 --- 
-## "Seeing into the World of Kikumana"
 
 ![enter image description here](https://imgur.com/SWzQVIil.jpg)
 
