@@ -2,6 +2,7 @@
 title: Seeing into the World of Kikumana
 excerpt: The short world of animated scripts is how Kikumana is perceived, A short noted girl named "Kikumana" acting through stage performance, as it is believed but portrayed on a mannerism of visual representing, a stressful tyranny and a wonderful work of Arts in faster sequence...
 cover: https://imgur.com/SWzQVIil.jpg
+date: 2020-05-01
 --- 
 ## "Seeing into the World of Kikumana"
 

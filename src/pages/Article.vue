@@ -9,15 +9,27 @@
           {{ doc.node.excerpt }}
           </g-link>
         </div>
-        </div> <!-- end post -->
+        </div> 
+        <!-- end post -->
 
+        <pagination-posts
+        v-if="$page.docs.pageInfo.totalPages > 1"
+        base="/article"
+        :totalPages="$page.docs.pageInfo.totalPages"
+        :currentPage="$page.docs.pageInfo.currentPage"
+      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Documentation {
-  docs: allDocumentation (sortBy: "date", order: DESC) {
+query Documentation ($page: Int) {
+  docs: allDocumentation (sortBy: "date", order: DESC, perPage: 3, page: $page) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         id
@@ -32,6 +44,7 @@ query Documentation {
 </page-query>
 
 <script>
+import PaginationPosts from "../components/PaginationPosts";
 export default {
   metaInfo: {
     title: 'Article',
@@ -41,6 +54,9 @@ export default {
         content: 'Comicsghor Blog. Here you will get comic and anime related blog posts'
       }
     ]
+  },
+  components: {
+    PaginationPosts
   }
 }
 </script>

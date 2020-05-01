@@ -2,6 +2,7 @@
 title: Anime Trope Talks (Vol.1)
 excerpt: Often at times we cross anime with tropes that are very basic in way of representation, these anime are mostly known as Saddest of their genres and known more because of the Subtle Romantic Comedy moments, to turn into a Tragic Slice of Life Story...
 cover: https://i.imgur.com/0skh7zA.png
+date: 2020-04-14
 --- 
 Topic: Anime Trope; Anime where leading Characters died in a Romantic Drama**
 
