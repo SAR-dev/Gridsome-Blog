@@ -61,5 +61,5 @@ date: 2020-05-01
 
 ![enter image description here](https://imgur.com/Y44zHd6l.jpg)
 
-**প্রতিবেদনটি লিখেছেন: Loknath Dhar
-কমিক্স ঘরের একটি নিজস্ব প্রতিবেদন।**
+**প্রতিবেদনটি লিখেছেন: Loknath Dhar**
+**কমিক্স ঘরের একটি নিজস্ব প্রতিবেদন।**

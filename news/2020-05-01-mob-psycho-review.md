@@ -23,5 +23,5 @@ date: 2020-05-01
 
 ![enter image description here](https://imgur.com/JyH8vHLl.jpg)
 
-**প্রতিবেদনটি লিখেছেন: Md Nahid Ull Islam
-কমিক্স ঘরের একটি নিজস্ব প্রতিবেদন।**
+**প্রতিবেদনটি লিখেছেন: Md Nahid Ull Islam**
+**কমিক্স ঘরের একটি নিজস্ব প্রতিবেদন।**
