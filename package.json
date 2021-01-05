@@ -13,7 +13,7 @@
     "@gridsome/transformer-remark": "^0.4.0",
     "@gridsome/vue-remark": "^0.1.9",
     "@noxify/gridsome-plugin-remark-embed": "^1.1.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "gridsome": "^0.7.12",
     "gridsome-plugin-manifest": "^0.3.4",
     "gridsome-plugin-remark-shiki": "^0.3.1",
